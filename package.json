@@ -5,6 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "deploy": "gh-pages -d dist",
     "dev": "gulp",
     "prod": "gulp --prod"
   },
@@ -15,6 +16,7 @@
     "babel-loader": "^8.2.2",
     "browser-sync": "^2.27.4",
     "del": "^6.0.0",
+    "gh-pages": "^4.0.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-csso": "^4.0.1",
